@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.header {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.choice-container {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.choice-item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.choice-item:hover {
+  background-color: lightgray;
+}
+
+.result {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 30px;
+}
