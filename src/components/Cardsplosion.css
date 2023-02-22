@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+.card {
+  aspect-ratio: 5/7;
+  background-color: rgba(255, 255, 255, 0.05);
+  position: absolute;
+}
+
+.big-card {
+  width: 30vmin;
+  border-radius: 1vmin;
+}
+
+.little-card {
+  width: 12vmin;
+  border-radius: 2vmin;
+}
